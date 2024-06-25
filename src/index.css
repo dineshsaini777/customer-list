@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll_hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* tables.jsx ::- */
+/* table th, td {
+    width: 20vw;
+    word-break: break-all;
+} */
+
+/* table2.jsx */
+table th,
+td:nth-child(1) {
+    width: 54px;
+}
+
+table th,
+td:nth-child(2) {
+    width: 365px;
+}
+
+table th,
+td:nth-child(3) {
+    width: 160px;
+}
+
+table th,
+td:nth-child(4) {
+    width: 300px;
+}
+
+table th,
+td:nth-child(5) {
+    width: 160px;
+}
+
+table th,
+td:nth-child(6) {
+    width: 200px;
+}
+
+table th,
+td:nth-child(7) {
+    width: 90px;
+}

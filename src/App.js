@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Tables from './components/Tables';
+import Tables2 from './components/Tables2';
 import UserList from './components/UserList';
+
 
 function App() {
   return (
-    <div className="App">
-      <UserList />
+    <div>
+      <Tables2 />
+      {/* <Tables/> */}
     </div>
   );
 }
