@@ -2,9 +2,19 @@ import React from 'react'
 
 const UserList = () => {
     return (
-        <div>
-            <h2>denesh saini</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quidem provident quis veritatis illo officiis numquam similique, deleniti impedit, ducimus quibusdam expedita saepe id maiores veniam amet nostrum ab animi?
+        <div >
+            <table className='w-full'>
+                <tbody>
+                    <td className='flex justify-between'>
+                        <th>Name</th>
+                        <th>Registration</th>
+                        <th>City / State</th>
+                        <th>Member Status</th>
+                        <th>Total Investment</th>
+                        <th>Action</th>
+                    </td>
+                </tbody>
+            </table>
         </div>
     )
 }
