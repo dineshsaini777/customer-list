@@ -1,4 +1,4 @@
-import userImg from "../assets/image/svg/user-img.svg";
+import userImg from "../assets/image/svg/image.svg";
 import dots from "../assets/image/svg/dots.svg";
 
 export const userData = [
